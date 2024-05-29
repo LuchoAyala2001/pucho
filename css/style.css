@@ -1,0 +1,65 @@
+header{
+    background-color: #B48EAE; 
+}
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+    border-radius: 25vh;
+}
+nav{
+    width: 80%;
+    text-decoration: none;
+}
+.menu{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+li{
+    width: 100%;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: #D7D9D7;
+    font-size: 2.5vh;
+}
+a:hover{
+    color: #C9C5CB;
+}
+.toda-la-ropa{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    
+}
+figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+figure:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.ropa{
+    margin: 30px;
+}
+
+.pantalon{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 1s;
+}
